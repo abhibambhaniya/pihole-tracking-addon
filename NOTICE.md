@@ -15,3 +15,5 @@ Modifications made October 18, 2026: retain a conservative subset of mutually co
 The selected list and accompanying original documentation/evidence are supplied under GPL-3.0. A complete license is included in LICENSE. The editable text blocklist is the preferred form for modification; the CSV contains every selected rule and classification reference. Full baseline lists are not bundled.
 
 This package is provided without warranty. Source membership does not establish that a domain is still active, solely used for tracking, or safe to block in every application. See README.md for verification limits.
+
+Additional modification October 18, 2026: add the exact FullStory recorder host rs.fullstory.com after vendor-documentation review of 22 reachable probes; retain 21 functional, mixed-use, diagnostics or insufficiently verified hosts.

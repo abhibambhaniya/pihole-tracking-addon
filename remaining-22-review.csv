@@ -1,0 +1,23 @@
+hostname,decision,reason
+liftoff.io,keep,Vendor root; not established as a dedicated collection hostname
+pubmatic.com,keep,Vendor root; avoid blocking the whole service for a root-host probe
+udc.yahoo.com,keep,EasyPrivacy blocks a particular URL path; hostname-wide safety not established
+metrika.yandex.ru,keep,Analytics service web interface; broad host block also removes dashboard access
+appmetrica.yandex.ru,keep,Analytics service web interface; avoid dashboard and linked-service disruption
+s.youtube.com,keep,YouTube explicitly protected by user scope
+redirector.googlevideo.com,keep,YouTube/video delivery explicitly protected by user scope
+pangleglobal.com,keep,Vendor root; not established as a dedicated collection hostname
+tagmanager.google.com,keep,Google documents this as the signed-in Tag Manager dashboard
+rs.fullstory.com,add,Dedicated FullStory recorder host; Pro rule plus vendor recorder-host documentation
+app.posthog.com,keep,Legacy shared application/API host; path-level rules cannot safely become DNS blocks
+eu.posthog.com,keep,PostHog private/dashboard API host; preserve service access
+us.i.posthog.com,keep,Event capture and feature-flag evaluation share this host; avoid changing application behavior
+rudderstack.com,keep,Vendor root with path-specific EasyPrivacy rule; not a dedicated ingestion hostname
+siftscience.com,keep,Fraud-prevention service; preserve payment/login risk controls
+bnc.lt,keep,Branch deep links/redirects; avoid breaking destinations
+api.bugsnag.com,keep,"Error/crash reporting, outside this tracking/analytics-only update"
+app.bugsnag.com,keep,Error-reporting application/dashboard; preserve access
+browser.sentry-cdn.com,keep,Error-reporting SDK delivery; not a dedicated analytics-only collector
+app.getsentry.com,keep,Error-reporting application/dashboard; preserve access
+o0.ingest.sentry.io,keep,"Error/crash ingestion, outside this update scope"
+graph.facebook.com,keep,Shared Facebook Graph API; preserve login and integrated functionality
