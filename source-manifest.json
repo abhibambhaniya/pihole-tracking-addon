@@ -1,0 +1,95 @@
+{
+  "created_at_utc": "2026-10-18T21:45:32.260355+00:00",
+  "build_local_date": "2026-10-18",
+  "sources": [
+    {
+      "file": "stevenblack.txt",
+      "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+      "bytes": 2189155,
+      "sha256": "af019612ef8c1239762033947cfd70716c1d53dab78541b9d924f1966f2e6170",
+      "upstream_metadata": [
+        "# Date: 18 October 2026 19:09:16 (UTC)",
+        "# Number of unique domains: 71,492"
+      ]
+    },
+    {
+      "file": "hagezi-normal.txt",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt",
+      "bytes": 3813990,
+      "sha256": "f2bd4951e6e2a687e36a1fd9fba48d01d33d6946566c3b056dca819d8cf86517",
+      "upstream_metadata": [
+        "! Last modified: 18 Oct 2026 08:50 UTC",
+        "! Version: 2026.1018.0850.21",
+        "! Number of entries: 166141"
+      ]
+    },
+    {
+      "file": "hagezi-pro.txt",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
+      "bytes": 4439696,
+      "sha256": "57c6db3fb68a827843497574180d25baf3029a8948bf26992ad71facea8ece3b",
+      "upstream_metadata": [
+        "! Last modified: 18 Oct 2026 08:56 UTC",
+        "! Version: 2026.1018.0856.58",
+        "! Number of entries: 202297"
+      ]
+    },
+    {
+      "file": "easyprivacy.txt",
+      "url": "https://easylist.to/easylist/easyprivacy.txt",
+      "bytes": 1509977,
+      "sha256": "f34bd6c8a90451f7a454064c035729e5112298411a813c735842c906bbcd56d7",
+      "upstream_metadata": [
+        "! Version: 202610182134",
+        "! Last modified: 18 Oct 2026 21:34 UTC",
+        "! Commit: cbeb90e9ef790761579810d4cb746bb6e5b9b25f"
+      ]
+    },
+    {
+      "file": "hagezi-readme.md",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/README.md",
+      "bytes": 79055,
+      "sha256": "4cb3f9909032a378d4b73dc4175a90c82aa1f45a53f77dcf7903b8e74beb2da7",
+      "upstream_metadata": []
+    },
+    {
+      "file": "hagezi-license.txt",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "upstream_metadata": []
+    },
+    {
+      "file": "pihole-gravity.sh",
+      "url": "https://raw.githubusercontent.com/pi-hole/pi-hole/master/gravity.sh",
+      "bytes": 49309,
+      "sha256": "a7201b57a2b979bffeb87a9cf35daa1d6ea630aa72351616d4dfdf64c9d3c22b",
+      "upstream_metadata": []
+    },
+    {
+      "file": "ftl-parser.c",
+      "url": "https://raw.githubusercontent.com/pi-hole/FTL/master/src/tools/gravity-parseList.c",
+      "bytes": 25389,
+      "sha256": "144e4f82998c5d2f8073f8ffaee8a6d6bf4bf48b24e5e58d9fea0943d21968cc",
+      "upstream_metadata": []
+    }
+  ],
+  "counts": {
+    "stevenblack_exact_domains": 71492,
+    "hagezi_normal_abp_domains": 166141,
+    "hagezi_pro_abp_domains": 202297,
+    "easyprivacy_unconditional_domain_rules": 43242,
+    "pro_and_easyprivacy_nonoverlapping_candidates": 117,
+    "selected": 53,
+    "excluded_after_review": 64,
+    "output_duplicates": 0,
+    "output_exact_baseline_overlap": 0,
+    "output_normal_parent_coverage": 0
+  },
+  "verification_limits": [
+    "Downloaded upstream snapshots, not the installed Pi-hole database",
+    "No live Pi-hole import, DNS resolution, site compatibility or performance test",
+    "Hostname classification corroborated by maintained lists, not packet captures",
+    "No browser-only conditional EasyPrivacy rules translated into DNS blocks"
+  ]
+}
