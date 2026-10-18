@@ -1,6 +1,6 @@
 # Conservative Pi-hole tracking add-on
 # Build date: 2026-10-18 (America/Los_Angeles)
-# Entries: 54 exact hostnames; subdomains are NOT implicitly blocked
+# Entries: 56 exact hostnames; subdomains are NOT implicitly blocked
 # Sources: HaGeZi Pro, EasyPrivacy, and vendor documentation; see README.md
 # Sources, attribution and limitations: README.md, domain-evidence.csv, source-manifest.json
 # License: GPL-3.0; redistribute with LICENSE and NOTICE.md
@@ -9,6 +9,7 @@ aaat.2ndstreet.jp
 adobemetrics.yellohvillage.fr
 adobemetrics.yellohvillage.nl
 atconnect.npo.nl
+events.launchdarkly.com
 iqmetrics.11freunde.de
 iqmetrics.btc-echo.de
 iqmetrics.cicero.de
@@ -20,6 +21,7 @@ metrics.chapters.indigo.ca
 metrics.egencia.de
 metrics.wacken.com
 rs.fullstory.com
+rum.browser-intake-datadoghq.com
 sadbmetrics.vehiculosdeocasion.eus
 sadbmetrics.vehiculosocasionalava.com
 secure.24-astute.com

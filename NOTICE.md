@@ -17,3 +17,5 @@ The selected list and accompanying original documentation/evidence are supplied 
 This package is provided without warranty. Source membership does not establish that a domain is still active, solely used for tracking, or safe to block in every application. See README.md for verification limits.
 
 Additional modification October 18, 2026: add the exact FullStory recorder host rs.fullstory.com after vendor-documentation review of 22 reachable probes; retain 21 functional, mixed-use, diagnostics or insufficiently verified hosts.
+
+Chrome review: add events.launchdarkly.com and rum.browser-intake-datadoghq.com as exact telemetry hosts; preserve functional, consent, redirect, fraud-prevention and video service hosts.

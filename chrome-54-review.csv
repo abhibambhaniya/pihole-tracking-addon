@@ -1,0 +1,55 @@
+hostname_or_path,decision,reason
+liftoff.io,keep,Vendor root; not established as a dedicated collection hostname
+udc.yahoo.com,keep,EasyPrivacy blocks a particular URL path; hostname-wide safety not established
+metrika.yandex.ru,keep,Analytics service web interface; broad host block also removes dashboard access
+appmetrica.yandex.ru,keep,Analytics service web interface; avoid dashboard and linked-service disruption
+s.youtube.com,keep,YouTube explicitly protected by user scope
+redirector.googlevideo.com,keep,YouTube/video delivery explicitly protected by user scope
+pangleglobal.com,keep,Vendor root; not established as a dedicated collection hostname
+tagmanager.google.com,keep,Google documents this as the signed-in Tag Manager dashboard
+app.posthog.com,keep,Legacy shared application/API host; path-level rules cannot safely become DNS blocks
+eu.posthog.com,keep,PostHog private/dashboard API host; preserve service access
+us.i.posthog.com,keep,Event capture and feature-flag evaluation share this host; avoid changing application behavior
+rudderstack.com,keep,Vendor root with path-specific EasyPrivacy rule; not a dedicated ingestion hostname
+siftscience.com,keep,Fraud-prevention service; preserve payment/login risk controls
+bnc.lt,keep,Branch deep links/redirects; avoid breaking destinations
+api.bugsnag.com,keep,"Error/crash reporting, outside this tracking/analytics-only update"
+app.bugsnag.com,keep,Error-reporting application/dashboard; preserve access
+browser.sentry-cdn.com,keep,Error-reporting SDK delivery; not a dedicated analytics-only collector
+app.getsentry.com,keep,Error-reporting application/dashboard; preserve access
+o0.ingest.sentry.io,keep,"Error/crash ingestion, outside this update scope"
+rum.browser-intake-datadoghq.com,add,Add exact browser RUM telemetry intake host; preserve the Datadog service and other hosts
+connect.facebook.net,keep,Preserve Facebook login SDK and integrations
+graph.facebook.com,keep,Shared Facebook Graph API; preserve login and integrated functionality
+graph.instagram.com,keep,Preserve shared social API and integrations
+i.instagram.com,keep,Preserve shared social API/app functionality
+ads.x.com,keep,"Advertising service/portal hostname; collection-only role not established, defer"
+widgets.pinterest.com,keep,Preserve embedded widgets/content
+vk.com/rtrg,keep,URL path cannot be selectively blocked by DNS; do not block all vk.com
+xp.apple.com,keep,No sufficient verified evidence for low-breakage addition; defer
+ads.huawei.com,keep,"Ad-service/vendor host; collection-only role not established, defer rather than chase score"
+ngfts.lge.com,keep,No sufficient verified evidence for low-breakage addition; defer
+firebase-settings.crashlytics.com,keep,"Diagnostics SDK configuration, outside telemetry-only additions"
+privacyportal.onetrust.com,keep,Preserve consent controls and site initialization; user requested low breakage
+consent.cookiebot.com,keep,Preserve consent controls and site initialization; user requested low breakage
+consentcdn.cookiebot.com,keep,Preserve consent controls and site initialization; user requested low breakage
+cookiebot.com,keep,Preserve consent controls and site initialization; user requested low breakage
+consent.trustarc.com,keep,Preserve consent controls and site initialization; user requested low breakage
+sdk.privacy-center.org,keep,Preserve consent controls and site initialization; user requested low breakage
+cdn.privacy-mgmt.com,keep,Preserve consent controls and site initialization; user requested low breakage
+app.usercentrics.eu,keep,Preserve consent controls and site initialization; user requested low breakage
+cmp.inmobi.com,keep,Preserve consent controls and site initialization; user requested low breakage
+cmp.osano.com,keep,Preserve consent controls and site initialization; user requested low breakage
+click.linksynergy.com,keep,Preserve click destinations/referrals; hostname blocking can break merchant or email links
+www.awin1.com,keep,Preserve click destinations/referrals; hostname blocking can break merchant or email links
+zenaps.com,keep,Preserve click destinations/referrals; hostname blocking can break merchant or email links
+refersion.com,keep,Preserve click destinations/referrals; hostname blocking can break merchant or email links
+redirect.viglink.com,keep,Preserve click destinations/referrals; hostname blocking can break merchant or email links
+events.launchdarkly.com,add,Add exact telemetry/events destination; preserve clientstream.launchdarkly.com flag streaming
+clientstream.launchdarkly.com,keep,Feature-flag streaming needed for application behavior; preserve
+click.mailchimp.com,keep,Preserve click destinations/referrals; hostname blocking can break merchant or email links
+widget.intercom.io,keep,Preserve customer-support chat
+api.onesignal.com,keep,Preserve notification API
+customer.io,keep,Messaging vendor root; not established as a dedicated telemetry-only host
+dai.google.com,keep,Preserve video streams using dynamic ad insertion
+ssl.p.jwpcdn.com,keep,Preserve JW Player delivery
