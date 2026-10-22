@@ -91,5 +91,119 @@
     "No live Pi-hole import, DNS resolution, site compatibility or performance test",
     "Hostname classification corroborated by maintained lists, not packet captures",
     "No browser-only conditional EasyPrivacy rules translated into DNS blocks"
-  ]
+  ],
+  "review_2026_10_22": {
+    "created_at_utc": "2026-10-22T20:48:30.463680+00:00",
+    "purpose": "Overlap and evidence check for hostnames observed allowed on the household Pi-hole, 2026-10-15 to 2026-10-22; see household-2026-10-22-review.csv",
+    "sources": [
+      {
+        "file": "stevenblack.txt",
+        "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+        "bytes": 2189155,
+        "sha256": "af019612ef8c1239762033947cfd70716c1d53dab78541b9d924f1966f2e6170",
+        "upstream_metadata": [
+          "# Date: 18 October 2026 19:09:16 (UTC)",
+          "# Number of unique domains: 71,492"
+        ]
+      },
+      {
+        "file": "hagezi-normal.txt",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt",
+        "bytes": 3940935,
+        "sha256": "e864156c5c034f5e338f75823ecdc161d33004b71016bccbd5f31bc7892f801d",
+        "upstream_metadata": [
+          "! Last modified: 22 Oct 2026 08:38 UTC",
+          "! Version: 2026.1022.0838.14",
+          "! Number of entries: 171250"
+        ]
+      },
+      {
+        "file": "hagezi-pro.txt",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
+        "bytes": 4564997,
+        "sha256": "9f5c9938ba7e9156513770e9e42849dcd545f2a65d0b17515bf0168aeeac4423",
+        "upstream_metadata": [
+          "! Last modified: 22 Oct 2026 08:43 UTC",
+          "! Version: 2026.1022.0843.22",
+          "! Number of entries: 207507"
+        ]
+      },
+      {
+        "file": "easyprivacy.txt",
+        "url": "https://easylist.to/easylist/easyprivacy.txt",
+        "bytes": 1510976,
+        "sha256": "ced2475bbb5d9ab11aed8af9414489d5e983031c1bf2cababd554942bcee484f",
+        "upstream_metadata": [
+          "! Version: 202610222037",
+          "! Last modified: 22 Oct 2026 20:37 UTC"
+        ]
+      },
+      {
+        "file": "native.apple.txt",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt",
+        "bytes": 4037,
+        "sha256": "9348fd87a79566e8b2ae8051ccd32c1b1845c2723c912e80d345855655eb3561",
+        "upstream_metadata": [
+          "! Last modified: 17 Oct 2026 18:53 UTC",
+          "! Version: 2026.1017.1853.28",
+          "! Number of entries: 110"
+        ]
+      },
+      {
+        "file": "native.winoffice.txt",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.winoffice.txt",
+        "bytes": 13722,
+        "sha256": "50bd83fcc009acd7affbbdc818304636859e9fad87be9f57e42cd9857ae9d3a2",
+        "upstream_metadata": [
+          "! Last modified: 16 Oct 2026 22:03 UTC",
+          "! Version: 2026.1016.2203.30",
+          "! Number of entries: 383"
+        ]
+      },
+      {
+        "file": "native.amazon.txt",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.amazon.txt",
+        "bytes": 12253,
+        "sha256": "075dc5a44fbfef0b8074e2a961527418ef84230ce858337cbdc88c8cc98adb83",
+        "upstream_metadata": [
+          "! Last modified: 16 Oct 2026 22:02 UTC",
+          "! Version: 2026.1016.2202.25",
+          "! Number of entries: 368"
+        ]
+      },
+      {
+        "file": "native.lgwebos.txt",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.lgwebos.txt",
+        "bytes": 8613,
+        "sha256": "c02fd9ec2018f18dd5366fa4046d020ab2aa739e9b323c04965f46bd0902800a",
+        "upstream_metadata": [
+          "! Last modified: 16 Oct 2026 22:08 UTC",
+          "! Version: 2026.1016.2208.09",
+          "! Number of entries: 231"
+        ]
+      },
+      {
+        "file": "native.tiktok.txt",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.tiktok.txt",
+        "bytes": 14615,
+        "sha256": "7c58f98687ddc2818bcc68a4501350caf1acb8237912c3db5e318e899f8ae87b",
+        "upstream_metadata": [
+          "! Last modified: 16 Oct 2026 22:05 UTC",
+          "! Version: 2026.1016.2205.52",
+          "! Number of entries: 437"
+        ]
+      },
+      {
+        "file": "native.huawei.txt",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.huawei.txt",
+        "bytes": 6194,
+        "sha256": "9e9f8636536760fa5d37e28bb13d1db727a3d09cad4c06d6bb0dd01fb5a61b42",
+        "upstream_metadata": [
+          "! Last modified: 12 Oct 2026 02:12 UTC",
+          "! Version: 2026.1012.0212.07",
+          "! Number of entries: 135"
+        ]
+      }
+    ]
+  }
 }
