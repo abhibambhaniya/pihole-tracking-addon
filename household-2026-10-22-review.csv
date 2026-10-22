@@ -1,0 +1,186 @@
+hostname,hits_7d,decision,purpose_or_reason,evidence
+aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com,2,add,Amazon advertising event beacon,HaGeZi native.amazon
+aax-events-cell02-cf.us-west.3px.axp.amazon-adsystem.com,20,add,Amazon advertising event beacon,HaGeZi native.amazon
+alb.reddit.com,76,add,Reddit Pixel conversion-tracking endpoint,EasyPrivacy ||alb.reddit.com^
+analytics.adjust.com,2,add,Adjust mobile attribution analytics,HaGeZi Pro ||analytics.adjust.com^
+appsgrowthpromo-pa.clients6.google.com,11,add,Google Workspace in-app growth/promo targeting,HaGeZi Pro ||appsgrowthpromo-pa.clients6.google.com^
+appsgrowthpromo-pa.googleapis.com,37,add,Google Workspace in-app growth/promo targeting,HaGeZi Pro ||appsgrowthpromo-pa.googleapis.com^
+b.da1.us.criteo.com,4,add,Criteo cross-site retargeting,HaGeZi Pro ||criteo.com^
+browser.events.data.microsoft.com,10,add,Microsoft 365/Windows diagnostic telemetry endpoint,HaGeZi native.winoffice
+cdn.sprig.com,3,add,Sprig in-product survey/behavior analytics SDK,HaGeZi Pro ||sprig.com^
+clienttracing-pa.googleapis.com,3,add,Google client performance tracing telemetry,HaGeZi Pro ||clienttracing-pa.googleapis.com^
+cstat.cdn-apple.com,44,add,Apple CDN download statistics reporting,HaGeZi native.apple
+cstat.g.aaplimg.com,36,add,Apple CDN download statistics reporting,HaGeZi native.apple
+e.logrocket.com,2,add,LogRocket session-replay ingestion,HaGeZi Pro ||e.logrocket.com^
+ecs.nel.measure.office.net,2,add,Microsoft Network Error Logging (NEL) report collector,HaGeZi native.winoffice
+endowmentoverhangutmost.com,2,add,Pop-under/malvertising redirect host,HaGeZi Pro ||endowmentoverhangutmost.com^
+excel-telemetry.officeapps.live.com,2,add,Microsoft 365/Windows diagnostic telemetry endpoint,HaGeZi Pro ||excel-telemetry.officeapps.live.com^; HaGeZi native.winoffice
+fbs.smoot.apple.com,119,add,Apple Spotlight/Safari search feedback telemetry,HaGeZi native.apple
+ic3.events.data.microsoft.com,135,add,Microsoft 365/Windows diagnostic telemetry endpoint,HaGeZi Pro ||ic3.events.data.microsoft.com^; HaGeZi native.winoffice
+identity.nel.measure.office.net,2,add,Microsoft Network Error Logging (NEL) report collector,HaGeZi Pro ||identity.nel.measure.office.net^; HaGeZi native.winoffice
+in-ftd-1235.da1.vip.prod.criteo.com,2,add,Criteo cross-site retargeting (CNAME target),HaGeZi Pro ||criteo.com^
+in-ftd-188.da1.vip.prod.criteo.com,2,add,Criteo cross-site retargeting (CNAME target),HaGeZi Pro ||criteo.com^
+ipv6.unagi-na.amazon.com,2,add,Amazon app/device metrics collector,HaGeZi Pro ||unagi-na.amazon.com^; HaGeZi native.amazon
+m365cdn.nel.measure.office.net,2,add,Microsoft Network Error Logging (NEL) report collector,HaGeZi Pro ||m365cdn.nel.measure.office.net^; HaGeZi native.winoffice
+mobile.events.data.microsoft.com,419,add,Microsoft 365/Windows diagnostic telemetry endpoint,HaGeZi native.winoffice
+mobile.events.data.trafficmanager.net,24,add,Microsoft 365/Windows diagnostic telemetry endpoint,HaGeZi native.winoffice
+powerpoint-telemetry.officeapps.live.com,2,add,Microsoft 365/Windows diagnostic telemetry endpoint,HaGeZi Pro ||powerpoint-telemetry.officeapps.live.com^; HaGeZi native.winoffice
+radarsubmissions.apple.com,3,add,Apple diagnostics/feedback submission,HaGeZi native.apple
+rm-v.da1.us.criteo.com,6,add,Criteo cross-site retargeting,HaGeZi Pro ||criteo.com^
+self.events.data.microsoft.com,98,add,Microsoft 365/Windows diagnostic telemetry endpoint,HaGeZi native.winoffice
+smoot-feedback.v.aaplimg.com,68,add,Apple Spotlight/Safari search feedback telemetry,HaGeZi native.apple
+sun.paleoak.top,10,add,Pop-under/malvertising redirect host,HaGeZi Pro ||paleoak.top^
+syndicate.contentsserved.com,6,add,Pop-under ad syndication host,HaGeZi Pro ||contentsserved.com^
+teams-events-data.trafficmanager.net,8,add,Microsoft 365/Windows diagnostic telemetry endpoint,HaGeZi Pro ||teams-events-data.trafficmanager.net^; HaGeZi native.winoffice
+teams.events.data.microsoft.com,119,add,Microsoft 365/Windows diagnostic telemetry endpoint,HaGeZi Pro ||teams.events.data.microsoft.com^; HaGeZi native.winoffice
+teams.nel.measure.office.net,4,add,Microsoft Network Error Logging (NEL) report collector,HaGeZi Pro ||teams.nel.measure.office.net^; HaGeZi native.winoffice
+telemetry.microsoft.com,12,add,Microsoft 365/Windows diagnostic telemetry endpoint,HaGeZi Pro ||telemetry.microsoft.com^; HaGeZi native.winoffice
+unagi-na.amazon.com,151,add,Amazon app/device metrics collector,HaGeZi Pro ||unagi-na.amazon.com^; HaGeZi native.amazon
+unagi.amazon.com,68,add,Amazon app/device metrics collector,HaGeZi Pro ||unagi.amazon.com^; HaGeZi native.amazon
+usage-ping.brave.com,52,add,Brave browser usage ping,HaGeZi Pro ||usage-ping.brave.com^
+use1-turn.fpjs.io,2,add,FingerprintJS TURN endpoint used for WebRTC IP fingerprinting; parent fpjs.io already in StevenBlack,HaGeZi Pro ||fpjs.io^
+vortex-win.data.microsoft.com,11,add,Microsoft 365/Windows diagnostic telemetry endpoint,HaGeZi Pro ||vortex-win.data.microsoft.com^; HaGeZi native.winoffice
+vortex.data.microsoft.com,7,add,Microsoft 365/Windows diagnostic telemetry endpoint,HaGeZi Pro ||vortex.data.microsoft.com^; EasyPrivacy ||vortex.data.microsoft.com^; HaGeZi native.winoffice
+westus2-2.in.applicationinsights.azure.com,2,add,Microsoft 365/Windows diagnostic telemetry endpoint,HaGeZi native.winoffice
+xclass-beacons.xumo.com,10,add,Xumo TV analytics beacons,HaGeZi Pro ||xclass-beacons.xumo.com^
+xgapromomanager-pa.googleapis.com,3,add,Google cross-app promo targeting,HaGeZi Pro ||xgapromomanager-pa.googleapis.com^
+xp.apple.com,344,add,Apple analytics/usage telemetry collector,HaGeZi native.apple
+app-measurement.com,1,already-covered,Covered by StevenBlack exact or HaGeZi Normal rule in the current snapshot,HaGeZi Pro ||app-measurement.com^
+ljkeuetrgzouh.space,1,already-covered,Covered by StevenBlack exact or HaGeZi Normal rule in the current snapshot,HaGeZi Pro ||ljkeuetrgzouh.space^
+wklwcvliqudxd.website,2,already-covered,Covered by StevenBlack exact or HaGeZi Normal rule in the current snapshot,HaGeZi Pro ||wklwcvliqudxd.website^
+events.launchdarkly.com,2,already-in-addon,Added in an earlier review; queries predate that update,HaGeZi Pro ||events.launchdarkly.com^
+rs.fullstory.com,3,already-in-addon,Added in an earlier review; queries predate that update,HaGeZi Pro ||rs.fullstory.com^
+rum.browser-intake-datadoghq.com,11,already-in-addon,Added in an earlier review; queries predate that update,HaGeZi Pro ||browser-intake-datadoghq.com^; EasyPrivacy ||browser-intake-datadoghq.com^
+1l3fy.yx8x4cjpbw5jjt.rest,2,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+22i93plcr4vgck.kfjlnu4384hkgy5fh.rest,6,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+2h8nj.6um8cyhwgub2g6zz7xnvi.rest,2,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+4r91.utwebyh6uimcov.rest,6,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+ad-platform-service.svc.thor.comcast.com,8,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+adata.alibaba.com,2,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+ads.huawei.com.volcgslb.com,1,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+apismd.sc4.medallia.com,1,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+cdn.intellimize.co,2,defer,A/B personalization script; sites using anti-flicker snippets can stay blank when it is blocked,HaGeZi Pro ||intellimize.co^
+com-amazon-amazon.triggers-v1.prod.mobile.weblab.a2z.com,13,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+digital-cloud.apis.medallia.com,2,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+events.segment.io,13,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+gray.intake.datadoghq.com,2,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+imasdk.googleapis.com,6,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+j.km9ox7hr9wk8mqgvpze4.rest,8,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+l1.k3eercnxnkin3ri88m7ewuurn98we3pfip878q.rest,4,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+liftoff.ai,15,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+medallia2.map.fastly.net,2,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+mkto-ab620017.com,1,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+ohttp.ads.brave.com,12,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+ossuaryoverture.website,2,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+peoplestackwebexperiments-pa.clients6.google.com,28,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+pi.reddit.com,104,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+posthog-ingress-prod-eu-1819302861.eu-central-1.elb.amazonaws.com,6,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+posthog-ingress-prod-us-256455477.us-east-1.elb.amazonaws.com,11,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+resources.digital-cloud.medallia.com,3,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+static.ads.brave.com,8,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+stats.gc.apple.com,2,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+stellarconductornexus.com,2,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+tvinteractive.tv,8,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+umdc-global.alibaba.com,3,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+unifyintent.com,2,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+us-assets.i.posthog.com,8,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+us.ibs.lgappstv.com,10,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+www.pangleglobal.com,7,defer,Vendor website; consistent with earlier keep decision for pangleglobal.com,HaGeZi Pro ||pangleglobal.com^
+www.pangleglobal.com.ttdns2.com,18,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+www.pgjlctmswgnwf.com,2,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+www.ueiwsp.com,6,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+xp.g.aaplimg.com,467,defer,Observed tracking-like role but no maintained-list evidence; needs vendor documentation or live testing,
+zn_42v6draxyafsjmv-homedepot.siteintercept.qualtrics.com,2,defer,"Qualtrics site-intercept survey tracking; hostname contains an underscore, which some Pi-hole gravity parsers reject",HaGeZi Pro ||siteintercept.qualtrics.com^
+1ad356638475.cdn4.forter.com,2,keep,"Anti-fraud device fingerprinting (bank/checkout logins); Pure fingerprinting, but banks/checkouts use it to skip extra verification. Blocking = more OTP prompts or failed logins/payments.",
+345c2edb66a941e08fcc99a160982223-1ad356638475.cdn.forter.com,2,keep,"Anti-fraud device fingerprinting (bank/checkout logins); Pure fingerprinting, but banks/checkouts use it to skip extra verification. Blocking = more OTP prompts or failed logins/payments.",
+357-ybq-150.mktoweb.com,2,keep,"Affiliate / deep-link / email click redirects; Pure tracking hops, but blocking breaks the link you clicked (deal posts, marketing emails, app invites).",
+583ec472ee7d.edge.sdk.awswaf.com,669,keep,"Bot-defense fingerprinting; Blocking gets you captcha walls or ""access denied"" on retail sites (Target/Home Depot/etc.) and Google sign-in.",
+7ioidzao3ivbnv3q6x4wq4bxdhrjazjldq7oa6hhca20d0949566e842sac.d.aa.online-metrix.net,1,keep,"Anti-fraud device fingerprinting (bank/checkout logins); Pure fingerprinting, but banks/checkouts use it to skip extra verification. Blocking = more OTP prompts or failed logins/payments.",HaGeZi Pro ||aa.online-metrix.net^
+7ioidzao5hzudip2ptkp6snvhlm55h3jkkd36ibe0523d0610528f117sac.d.aa.online-metrix.net,1,keep,"Anti-fraud device fingerprinting (bank/checkout logins); Pure fingerprinting, but banks/checkouts use it to skip extra verification. Blocking = more OTP prompts or failed logins/payments.",HaGeZi Pro ||aa.online-metrix.net^
+819-wht-483.mktoweb.com,2,keep,"Affiliate / deep-link / email click redirects; Pure tracking hops, but blocking breaks the link you clicked (deal posts, marketing emails, app invites).",
+94bdbe62f205.fabric.xmidt.comcast.net,12,keep,Xumo TV device management; Comcast remote management + telemetry channel for the TV. Blocking can stop firmware/app updates.,
+ab.chatgpt.com,115,keep,Feature flags / A-B experiments; Apps fall back to defaults; ChatGPT/Notion occasionally hang or lose features.,
+ads.huawei.com,8,keep,Earlier review decision retained; no new evidence class,HaGeZi Pro ||ads.huawei.com^
+api-alb-us-west-1.datadome.co,2,keep,"Bot-defense fingerprinting; Blocking gets you captcha walls or ""access denied"" on retail sites (Target/Home Depot/etc.) and Google sign-in.",
+api-js.datadome.co,3,keep,"Bot-defense fingerprinting; Blocking gets you captcha walls or ""access denied"" on retail sites (Target/Home Depot/etc.) and Google sign-in.",HaGeZi Pro ||api-js.datadome.co^
+api-us-west-1.captcha-delivery.com,2,keep,"Bot-defense fingerprinting; Blocking gets you captcha walls or ""access denied"" on retail sites (Target/Home Depot/etc.) and Google sign-in.",
+api.oaistatsig.com,8,keep,Feature flags / A-B experiments; Apps fall back to defaults; ChatGPT/Notion occasionally hang or lose features.,
+app.launchdarkly.com,4,keep,Feature flags / A-B experiments; Apps fall back to defaults; ChatGPT/Notion occasionally hang or lose features.,
+app.posthog.com,14,keep,Earlier review decision retained; no new evidence class,HaGeZi Pro ||app.posthog.com^
+appmetrica.yandex.ru,12,keep,Earlier review decision retained; no new evidence class,HaGeZi Pro ||appmetrica.yandex.ru^
+bnc.lt,23,keep,Earlier review decision retained; no new evidence class,
+browser-intake-us5-datadoghq.com,2,keep,Work observability (check InfraVana usage first); us5 Datadog log intake at 67 hits from 2 devices looks like an agent or app you run. Block only if neither is yours.,HaGeZi Pro ||browser-intake-us5-datadoghq.com^
+browser.sentry-cdn.com,12,keep,Earlier review decision retained; no new evidence class,HaGeZi Pro ||sentry-cdn.com^
+cdn3.forter.com,2,keep,"Anti-fraud device fingerprinting (bank/checkout logins); Pure fingerprinting, but banks/checkouts use it to skip extra verification. Blocking = more OTP prompts or failed logins/payments.",
+cdn4.forter.com,1,keep,"Anti-fraud device fingerprinting (bank/checkout logins); Pure fingerprinting, but banks/checkouts use it to skip extra verification. Blocking = more OTP prompts or failed logins/payments.",
+cdn9.forter.com,2,keep,"Anti-fraud device fingerprinting (bank/checkout logins); Pure fingerprinting, but banks/checkouts use it to skip extra verification. Blocking = more OTP prompts or failed logins/payments.",
+click.linksynergy.com,2,keep,Earlier review decision retained; no new evidence class,
+client.px-cloud.net,5,keep,"Bot-defense fingerprinting; Blocking gets you captcha walls or ""access denied"" on retail sites (Target/Home Depot/etc.) and Google sign-in.",
+clientstream-ga.launchdarkly.com,5,keep,Feature flags / A-B experiments; Apps fall back to defaults; ChatGPT/Notion occasionally hang or lose features.,
+clientstream.launchdarkly.com,65,keep,Earlier review decision retained; no new evidence class,
+collector-px04kmklxi.px-cloud.net,2,keep,"Bot-defense fingerprinting; Blocking gets you captcha walls or ""access denied"" on retail sites (Target/Home Depot/etc.) and Google sign-in.",HaGeZi Pro ||collector-px04kmklxi.px-cloud.net^
+collector-px3t7fwqg6.px-cloud.net,2,keep,"Bot-defense fingerprinting; Blocking gets you captcha walls or ""access denied"" on retail sites (Target/Home Depot/etc.) and Google sign-in.",HaGeZi Pro ||collector-px3t7fwqg6.px-cloud.net^
+collector-pxj770cp7y.px-cloud.net,4,keep,"Bot-defense fingerprinting; Blocking gets you captcha walls or ""access denied"" on retail sites (Target/Home Depot/etc.) and Google sign-in.",HaGeZi Pro ||collector-pxj770cp7y.px-cloud.net^
+connect.facebook.net,22,keep,Earlier review decision retained; no new evidence class,
+coyote.direct.cardlytics.net,4,keep,Usage tracking with a user-visible feature; s.youtube.com = watch history/resume; dai.google.com = ad-stitched streams fail; cmtelematics = State Farm driving-discount app; cardlytics = Chase card offers.,
+cpe-config.xdp.comcast.net,30,keep,Xumo TV device management; Comcast remote management + telemetry channel for the TV. Blocking can stop firmware/app updates.,
+cpe-profile.xdp.comcast.net,10,keep,Xumo TV device management; Comcast remote management + telemetry channel for the TV. Blocking can stop firmware/app updates.,
+ct.captcha-delivery.com,3,keep,"Bot-defense fingerprinting; Blocking gets you captcha walls or ""access denied"" on retail sites (Target/Home Depot/etc.) and Google sign-in.",
+d5bpyq04.na2.hubspotlinks.com,2,keep,"Affiliate / deep-link / email click redirects; Pure tracking hops, but blocking breaks the link you clicked (deal posts, marketing emails, app invites).",
+dai.google.com,9,keep,Earlier review decision retained; no new evidence class,
+error-tracking.reddit.com,10,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||error-tracking.reddit.com^
+eu.posthog.com,20,keep,Earlier review decision retained; no new evidence class,
+event.prod.bugsnag.alexa-mobile.amazon.dev,1,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||bugsnag.alexa-mobile.amazon.dev^
+exp.notion.com,172,keep,Feature flags / A-B experiments; Apps fall back to defaults; ChatGPT/Notion occasionally hang or lose features.,
+experiments.apple.com,27,keep,Feature flags / A-B experiments; Apps fall back to defaults; ChatGPT/Notion occasionally hang or lose features.,HaGeZi Pro ||experiments.apple.com^; HaGeZi native.apple
+fabric.xmidt.comcast.net,41,keep,Xumo TV device management; Comcast remote management + telemetry channel for the TV. Blocking can stop firmware/app updates.,
+featureassets.org,4,keep,Feature flags / A-B experiments; Apps fall back to defaults; ChatGPT/Notion occasionally hang or lose features.,
+firebase-settings.crashlytics.com,35,keep,Earlier review decision retained; no new evidence class,HaGeZi Pro ||crashlytics.com^
+fpt.dfp.microsoft.com,2,keep,"Anti-fraud device fingerprinting (bank/checkout logins); Pure fingerprinting, but banks/checkouts use it to skip extra verification. Blocking = more OTP prompts or failed logins/payments.",
+fpt6.dfp.microsoft.com,2,keep,"Anti-fraud device fingerprinting (bank/checkout logins); Pure fingerprinting, but banks/checkouts use it to skip extra verification. Blocking = more OTP prompts or failed logins/payments.",
+geo.captcha-delivery.com,3,keep,"Bot-defense fingerprinting; Blocking gets you captcha walls or ""access denied"" on retail sites (Target/Home Depot/etc.) and Google sign-in.",
+h-7ioidzao.online-metrix.net,1,keep,"Anti-fraud device fingerprinting (bank/checkout logins); Pure fingerprinting, but banks/checkouts use it to skip extra verification. Blocking = more OTP prompts or failed logins/payments.",
+h64.online-metrix.net,4,keep,"Anti-fraud device fingerprinting (bank/checkout logins); Pure fingerprinting, but banks/checkouts use it to skip extra verification. Blocking = more OTP prompts or failed logins/payments.",
+http-intake.logs.us5.datadoghq.com,67,keep,Work observability (check InfraVana usage first); us5 Datadog log intake at 67 hits from 2 devices looks like an agent or app you run. Block only if neither is yours.,HaGeZi Pro ||logs.us5.datadoghq.com^
+ift.px-cloud.net,8,keep,"Bot-defense fingerprinting; Blocking gets you captcha walls or ""access denied"" on retail sites (Target/Home Depot/etc.) and Google sign-in.",
+ingest.sentry.io,7,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||sentry.io^
+issuer.xmidt.comcast.net,12,keep,Xumo TV device management; Comcast remote management + telemetry channel for the TV. Blocking can stop firmware/app updates.,
+js.datadome.co,3,keep,"Bot-defense fingerprinting; Blocking gets you captcha walls or ""access denied"" on retail sites (Target/Home Depot/etc.) and Google sign-in.",
+js.sentry-cdn.com,2,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||sentry-cdn.com^
+liftoff.io,13,keep,Earlier review decision retained; no new evidence class,HaGeZi Pro ||liftoff.io^
+m.api.forter.com,1,keep,"Anti-fraud device fingerprinting (bank/checkout logins); Pure fingerprinting, but banks/checkouts use it to skip extra verification. Blocking = more OTP prompts or failed logins/payments.",
+metrika.yandex.ru,19,keep,Earlier review decision retained; no new evidence class,HaGeZi Pro ||metrika.yandex.ru^
+mobile-dssf-prod.cmtelematics.com,2,keep,Usage tracking with a user-visible feature; s.youtube.com = watch history/resume; dai.google.com = ad-stitched streams fail; cmtelematics = State Farm driving-discount app; cardlytics = Chase card offers.,
+mobile.launchdarkly.com,81,keep,Feature flags / A-B experiments; Apps fall back to defaults; ChatGPT/Notion occasionally hang or lose features.,
+myriad.merlin.comcast.com,44,keep,Xumo TV device management; Comcast remote management + telemetry channel for the TV. Blocking can stop firmware/app updates.,
+ngfts.lge.com,10,keep,Earlier review decision retained; no new evidence class,
+o0.ingest.sentry.io,10,keep,Earlier review decision retained; no new evidence class,HaGeZi Pro ||sentry.io^
+o1158394.ingest.us.sentry.io,4,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||sentry.io^
+o17585.ingest.sentry.io,1,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||sentry.io^
+o209747.ingest.us.sentry.io,2,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||sentry.io^
+o30969.ingest.us.sentry.io,18,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||sentry.io^
+o324374.ingest.sentry.io,14,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||sentry.io^
+o33249.ingest.us.sentry.io,13,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||sentry.io^
+o407926.ingest.us.sentry.io,4,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||sentry.io^
+o51008.ingest.sentry.io,2,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||sentry.io^
+pangleglobal.com,13,keep,Earlier review decision retained; no new evidence class,HaGeZi Pro ||pangleglobal.com^
+perimeterx2.map.fastly.net,2,keep,"Bot-defense fingerprinting; Blocking gets you captcha walls or ""access denied"" on retail sites (Target/Home Depot/etc.) and Google sign-in.",
+preview.ff-cdn.us5.datadoghq.com,2,keep,Feature flags / A-B experiments; Apps fall back to defaults; ChatGPT/Notion occasionally hang or lose features.,
+pubmatic.com,10,keep,Earlier review decision retained; no new evidence class,HaGeZi Pro ||pubmatic.com^
+quota.browser-intake-us5-datadoghq.com,2,keep,Work observability (check InfraVana usage first); us5 Datadog log intake at 67 hits from 2 devices looks like an agent or app you run. Block only if neither is yours.,HaGeZi Pro ||browser-intake-us5-datadoghq.com^
+redirect.prod.experiment.routing.cloudfront.aws.a2z.com,13,keep,Feature flags / A-B experiments; Apps fall back to defaults; ChatGPT/Notion occasionally hang or lose features.,
+redirect.viglink.com,8,keep,Earlier review decision retained; no new evidence class,
+s.youtube.com,41,keep,Earlier review decision retained; no new evidence class,
+sdk.split.io,5,keep,Feature flags / A-B experiments; Apps fall back to defaults; ChatGPT/Notion occasionally hang or lose features.,
+sentry-tmp.kanopy.com,2,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||sentry-tmp.kanopy.com^
+session.prod.bugsnag.alexa-mobile.amazon.dev,2,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||bugsnag.alexa-mobile.amazon.dev^
+settings.crashlytics.com,2,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||crashlytics.com^
+sift.com,12,keep,"Anti-fraud device fingerprinting (bank/checkout logins); Pure fingerprinting, but banks/checkouts use it to skip extra verification. Blocking = more OTP prompts or failed logins/payments.",
+siftscience.com,16,keep,Earlier review decision retained; no new evidence class,
+trace.bugsnag.kindle.amazon.dev,1,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||bugsnag.kindle.amazon.dev^
+trace.prod.bugsnag.alexa-mobile.amazon.dev,2,keep,Error/crash reporting is outside this add-on scope,HaGeZi Pro ||bugsnag.alexa-mobile.amazon.dev^
+ufo8dc.onelink.appsflyersdk.com,4,keep,"Affiliate / deep-link / email click redirects; Pure tracking hops, but blocking breaks the link you clicked (deal posts, marketing emails, app invites).",HaGeZi Pro ||appsflyersdk.com^
+us.i.posthog.com,21,keep,Earlier review decision retained; no new evidence class,
+us.posthog.com,13,keep,Work observability (check InfraVana usage first); us5 Datadog log intake at 67 hits from 2 devices looks like an agent or app you run. Block only if neither is yours.,
+waa-pa.clients6.google.com,346,keep,"Bot-defense fingerprinting; Blocking gets you captcha walls or ""access denied"" on retail sites (Target/Home Depot/etc.) and Google sign-in.",
+www.awin1.com,2,keep,Earlier review decision retained; no new evidence class,

@@ -1,25 +1,53 @@
 # Conservative Pi-hole tracking add-on
-# Build date: 2026-10-18 (America/Los_Angeles)
-# Entries: 56 exact hostnames; subdomains are NOT implicitly blocked
-# Sources: HaGeZi Pro, EasyPrivacy, and vendor documentation; see README.md
+# Build date: 2026-10-22 (America/Los_Angeles)
+# Entries: 102 exact hostnames; subdomains are NOT implicitly blocked
+# Sources: HaGeZi Pro, HaGeZi native tracker lists, EasyPrivacy, and vendor documentation; see README.md
 # Sources, attribution and limitations: README.md, domain-evidence.csv, source-manifest.json
 # License: GPL-3.0; redistribute with LICENSE and NOTICE.md
 # No claim of complete tracking/fingerprinting coverage or tested site compatibility
 aaat.2ndstreet.jp
+aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com
+aax-events-cell02-cf.us-west.3px.axp.amazon-adsystem.com
 adobemetrics.yellohvillage.fr
 adobemetrics.yellohvillage.nl
+alb.reddit.com
+analytics.adjust.com
+appsgrowthpromo-pa.clients6.google.com
+appsgrowthpromo-pa.googleapis.com
 atconnect.npo.nl
+b.da1.us.criteo.com
+browser.events.data.microsoft.com
+cdn.sprig.com
+clienttracing-pa.googleapis.com
+cstat.cdn-apple.com
+cstat.g.aaplimg.com
+e.logrocket.com
+ecs.nel.measure.office.net
+endowmentoverhangutmost.com
 events.launchdarkly.com
+excel-telemetry.officeapps.live.com
+fbs.smoot.apple.com
+ic3.events.data.microsoft.com
+identity.nel.measure.office.net
+in-ftd-1235.da1.vip.prod.criteo.com
+in-ftd-188.da1.vip.prod.criteo.com
+ipv6.unagi-na.amazon.com
 iqmetrics.11freunde.de
 iqmetrics.btc-echo.de
 iqmetrics.cicero.de
 iqmetrics.freitag.de
 iqmetrics.spektrum.de
 iqmetrics.wissenschaft.de
+m365cdn.nel.measure.office.net
 metrics.angi.com
 metrics.chapters.indigo.ca
 metrics.egencia.de
 metrics.wacken.com
+mobile.events.data.microsoft.com
+mobile.events.data.trafficmanager.net
+powerpoint-telemetry.officeapps.live.com
+radarsubmissions.apple.com
+rm-v.da1.us.criteo.com
 rs.fullstory.com
 rum.browser-intake-datadoghq.com
 sadbmetrics.vehiculosdeocasion.eus
@@ -45,19 +73,37 @@ secure.visionary-business-ingenuity.com
 secure.visionary-intuitiveimaginative.com
 secureanalytics.avis.lu
 secureanalytics.budget.se
+self.events.data.microsoft.com
 smetric.gebrueder-goetz.de
 smetric.markenschuhe.de
 smetrics.michaelkors.fr
 smetrics.miles-and-more.com
 smetrics.payback.net
 smetrics.repco.com.au
+smoot-feedback.v.aaplimg.com
 sslanalytics.sixt.it
 sslanalytics.sixt.nl
 ssmr.so-net.ne.jp
 sstats.norauto.pt
 stat-ssl.kakakumag.com
+sun.paleoak.top
 swa.wowcher.co.uk
+syndicate.contentsserved.com
+teams-events-data.trafficmanager.net
+teams.events.data.microsoft.com
+teams.nel.measure.office.net
+telemetry.microsoft.com
 tracking.redbutton.de
+unagi-na.amazon.com
+unagi.amazon.com
+usage-ping.brave.com
+use1-turn.fpjs.io
+vortex-win.data.microsoft.com
+vortex.data.microsoft.com
+westus2-2.in.applicationinsights.azure.com
 wvvw.france24.com
 wvvw.rfi.fr
+xclass-beacons.xumo.com
+xgapromomanager-pa.googleapis.com
+xp.apple.com
 zmetrics.msn.com

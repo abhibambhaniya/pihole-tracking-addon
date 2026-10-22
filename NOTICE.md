@@ -19,3 +19,5 @@ This package is provided without warranty. Source membership does not establish 
 Additional modification October 18, 2026: add the exact FullStory recorder host rs.fullstory.com after vendor-documentation review of 22 reachable probes; retain 21 functional, mixed-use, diagnostics or insufficiently verified hosts.
 
 Chrome review: add events.launchdarkly.com and rum.browser-intake-datadoghq.com as exact telemetry hosts; preserve functional, consent, redirect, fraud-prevention and video service hosts.
+
+Household review, October 22, 2026: add 46 exact hostnames observed on the maintainer's network and supported by HaGeZi Pro, HaGeZi native tracker lists (GPL-3.0) or unconditional EasyPrivacy rules; record 139 other candidates as keep or defer in household-2026-10-22-review.csv.
